@@ -2,7 +2,7 @@ import pymysql
 import dbconfig
 
 connection = pymysql.connect(host='locahost',
-                             user = dbconfig.user,
+                             user = dbconfig.db_user,
                              passwd=dbconfig.db_password)
 
 try:
